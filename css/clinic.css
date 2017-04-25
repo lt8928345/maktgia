@@ -456,6 +456,20 @@ h1,h2,h3,h4,h5,h6{
 	font-size: 0.9375rem ;
 	font-style: italic;
 }
+.ptg{
+	visibility: visible;
+    animation-delay: 0.1s;
+    animation-name: fadeInUp;
+}
+.ptg2{
+	 animation-delay: 0.2s;
+}
+.ptg3{
+	animation-delay: 0.3s;
+}
+.ptg4{
+	animation-delay: 0.5s;
+}
 .Recover{
 	background: url(../img/010.jpg)no-repeat fixed ;
 	background-size: cover;
@@ -701,6 +715,13 @@ input::-webkit-input-placeholder:focus,textarea::-webkit-input-placeholder:focus
 	color: rgba(255, 255, 255, 0.8);
 	font-size: 1.25rem ;
 	
+}
+.foot-icon{
+	position: absolute;
+    bottom: -1.25rem;
+    right: -1.25rem;
+	font-size: 9.375rem;
+	opacity: 0.04;
 }
 .footer {
 	background-color: #222324;
